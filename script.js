@@ -5,4 +5,4 @@ function update()
 size.innerText=`Width:${window.innerWidth} and Height:${window.innerHeight}`;
 }
 update();
-//window.addEventListener("resize",update);
+window.addEventListener("resize",update);
